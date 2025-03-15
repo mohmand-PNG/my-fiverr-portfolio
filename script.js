@@ -6,11 +6,14 @@ var typewriter = new Typewriter(app, {
 });
 
 typewriter
-  .pauseFor(2500)
-  .typeString("Developer")
-  .pauseFor(300)
-  .deleteChars(10)
   .pauseFor(1000)
+  .typeString("Developer")
+  .pauseFor(1000)
+  .deleteChars(9) // Deletes "Developer"
+  .pauseFor(500)
+  .typeString("Freelancer")
+  .pauseFor(2000)
+  .deleteAll()
   .start();
 
 // document.addEventListener("DOMContentLoaded", type);
