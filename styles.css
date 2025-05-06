@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
 
 body {
@@ -126,6 +127,9 @@ body {
 
   .hero-image img {
     width: 80%;
+  }
+  .navbar {
+    display: none;
   }
 }
 
@@ -877,3 +881,4 @@ button a {
 html {
   scroll-behavior: smooth;
 }
+/* responsive design code for the whole website */
