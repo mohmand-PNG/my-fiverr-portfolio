@@ -537,6 +537,17 @@ body {
     font-size: 1.25rem;
   }
 }
+@media (max-width: 1024px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 758px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* SERVICES SECTION */
 /* GENERAL STYLING */
