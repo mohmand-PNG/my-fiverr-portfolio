@@ -51,6 +51,10 @@ body {
 
 /* Hero Section */
 .hero {
+  /* background-image: url("5.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -86,7 +90,7 @@ body {
 
 /* Hero Image */
 .hero-image img {
-  max-width: 450px;
+  max-width: 400px;
   border-radius: 10px;
   animation: fadeInRight 1.5s ease;
 }
